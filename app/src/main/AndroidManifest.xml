@@ -14,11 +14,12 @@
             android:exported="false"
             android:label="@string/title_activity_login" />
         <activity
-            android:name=".ui.cadastro.CadastroActivity"
+            android:name=".ui.cadastro.RegisterActivity"
             android:exported="false" />
         <activity
             android:name=".ui.inicial.MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

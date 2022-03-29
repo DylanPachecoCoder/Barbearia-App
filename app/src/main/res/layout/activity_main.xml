@@ -4,16 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFC903"
+    android:background="@color/colorPrimary"
     tools:context=".ui.inicial.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textview_mainActivity_barberShopName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Barber Shop"
-        android:textColor="#333333"
-
+        android:text="@string/barberShopName"
+        android:textColor="@color/textColor"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -21,48 +20,40 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:id="@+id/view"
+        android:id="@+id/view_main_background_buttons"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="#E5E5E5"
+        android:background="@color/colorBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_main_login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="4dp"
-        android:background="#333333"
-        android:bottomLeftRadius="10dp"
-        android:bottomRightRadius="10dp"
-        android:text="Login"
-        android:textColor="#E5E5E5"
-        android:topLeftRadius="10dp"
-        android:topRightRadius="10dp"
+        android:background="@drawable/black_background_button"
+        android:text="@string/main_button_login"
+        android:textColor="@color/textColor"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_register"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view_main_background_buttons"
         app:layout_constraintVertical_bias="0.32999998" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_main_register"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="12dp"
-        android:background="#FFC903"
-        android:text="cadastrar"
-        android:bottomRightRadius="10dp"
-        android:bottomLeftRadius="10dp"
-        android:topLeftRadius="10dp"
-        android:topRightRadius="10dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button"
+        android:text="@string/main_button_register"
+        android:textColor="@color/textColor"
+        android:background="@drawable/green_background_button"
+        app:layout_constraintBottom_toBottomOf="@+id/button_main_login"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button" />
+        app:layout_constraintStart_toEndOf="@+id/button_main_login" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

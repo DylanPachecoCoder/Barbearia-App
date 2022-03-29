@@ -9,4 +9,7 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="barberShopName">Compton Cuts</string>
+    <string name="main_button_register">cadastrar</string>
+    <string name="main_button_login">Log in</string>
 </resources>
