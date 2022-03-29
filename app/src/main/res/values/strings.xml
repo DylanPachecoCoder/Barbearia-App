@@ -12,4 +12,7 @@
     <string name="barberShopName">Compton Cuts</string>
     <string name="main_button_register">cadastrar</string>
     <string name="main_button_login">Log in</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Senha</string>
+    <string name="register_repeat_password">Repita a senha</string>
 </resources>
