@@ -4,16 +4,29 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.android.lesprojeto.R
+import com.example.android.lesprojeto.ui.barbers.BarbersActivity
 import com.example.android.lesprojeto.ui.cadastro.RegisterActivity
 import com.example.android.lesprojeto.ui.login.LoginActivity
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var auth: FirebaseAuth
+    private var user: FirebaseUser? = null
 
     // Funcao executada assim que a tela é criada
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        auth = FirebaseAuth.getInstance()
+        user = auth.currentUser
+
+        if (user != null){
+            startActivity(Intent(this, BarbersActivity::class.java))
+            finish()
+        }
 
         setupListeners()
     }
