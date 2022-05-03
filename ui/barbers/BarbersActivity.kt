@@ -12,6 +12,8 @@ class BarbersActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_barbers)
 
+
+
         button.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
         }
