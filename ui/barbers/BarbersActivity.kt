@@ -11,7 +11,7 @@ class BarbersActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_barbers)
-        //teste
+
         button.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
         }
