@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">805767752285-8ig8ujtjsffjhnohb27e6c9bjdtg5h94.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">805767752285</string>
+    <string name="google_api_key" translatable="false">AIzaSyDzFz5zTkT5MZ7z3azJlNSogchGgtAFXnk</string>
+    <string name="google_app_id" translatable="false">1:805767752285:android:12a88e437ecad5ffb67bb4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDzFz5zTkT5MZ7z3azJlNSogchGgtAFXnk</string>
+    <string name="google_storage_bucket" translatable="false">barbearia-app-4d89e.appspot.com</string>
+    <string name="project_id" translatable="false">barbearia-app-4d89e</string>
+</resources>

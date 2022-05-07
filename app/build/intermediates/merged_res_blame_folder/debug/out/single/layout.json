@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\ws\\ws-AndroidStudio\\LesProjeto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_barber.xml",
+        "source": "E:\\ws\\ws-AndroidStudio\\LesProjeto\\app\\src\\main\\res\\layout\\item_barber.xml"
+    },
+    {
+        "merged": "E:\\ws\\ws-AndroidStudio\\LesProjeto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "E:\\ws\\ws-AndroidStudio\\LesProjeto\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "E:\\ws\\ws-AndroidStudio\\LesProjeto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "E:\\ws\\ws-AndroidStudio\\LesProjeto\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\ws\\ws-AndroidStudio\\LesProjeto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_barber_services.xml",
+        "source": "E:\\ws\\ws-AndroidStudio\\LesProjeto\\app\\src\\main\\res\\layout\\activity_barber_services.xml"
+    },
+    {
+        "merged": "E:\\ws\\ws-AndroidStudio\\LesProjeto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\ws\\ws-AndroidStudio\\LesProjeto\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\ws\\ws-AndroidStudio\\LesProjeto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_barbers.xml",
+        "source": "E:\\ws\\ws-AndroidStudio\\LesProjeto\\app\\src\\main\\res\\layout\\activity_barbers.xml"
+    }
+]
