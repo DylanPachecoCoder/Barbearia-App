@@ -15,4 +15,8 @@
     <string name="register_email">E-mail</string>
     <string name="register_password">Senha</string>
     <string name="register_repeat_password">Repita a senha</string>
+    <string name="barbers_list_message">Lista de profissionais e suas especialidades. As bolinhas
+        coloridas indicam o tempo de espera por cor, sendo: verde = menos de 1 hora,
+        laranja = menos de 2 horas e vermelho = 3 horas ou mais</string>
+    <string name="barbers_list_logout">logout</string>
 </resources>
